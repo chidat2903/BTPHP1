@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(242, 233, 233);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.data{
+    font-size:18px;
+}
+form{
+    display: grid;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+table{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    place-self: center;
+    padding: 10px;
+    box-shadow: rgba(57, 51, 51, 0.25) 0px 15px 25px, rgba(58, 53, 53, 0.05) 0px 5px 10px;
+    background: rgba(183, 41, 41, 0.74);
+}
+tbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
